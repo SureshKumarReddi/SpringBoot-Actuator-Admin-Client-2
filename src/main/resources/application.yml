@@ -1,0 +1,18 @@
+server:
+  port: 2222
+  
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
+        
+spring:
+  application:
+    name: WelcomeStar2
+  boot:
+    admin:
+      client:
+        url: http://localhost:9090/
